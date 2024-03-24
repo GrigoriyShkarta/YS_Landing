@@ -1,0 +1,5 @@
+@import '../../shared/scss/vars';
+
+.container {
+    @include container;
+}

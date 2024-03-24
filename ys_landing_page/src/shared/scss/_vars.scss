@@ -1,7 +1,14 @@
 $mainBlue: #8dd9f1;
 
+@mixin container {
+    padding: 5vh 5vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @mixin text {
-    font-family: 'OpenSans', cursive;
+    font-family: 'Montserrat', cursive;
 }
 
 @mixin title {
