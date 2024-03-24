@@ -1,0 +1,19 @@
+@import '../../shared/scss/vars';
+
+.container {
+    padding: 15vh 5vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    @include text;
+    text-align: center;
+}
+
+.title {
+    @include title;
+    color: $mainBlue;
+    margin-top: 3vh;
+}

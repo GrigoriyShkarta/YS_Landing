@@ -1,0 +1,26 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;400;500;600;700&display=swap');
+
+/* Import custom font */
+@font-face {
+  font-family: 'Breathing Personal Use';
+  src: url('../font/Breathing Personal Use 400.ttf') format('truetype');
+  /* Add additional font properties if needed */
+}
+
+/* Apply styles */
+html,
+body {
+  height: 100%;
+//   font-family: 'Breathing Personal Use', sans-serif; /* Use Open Sans from Google Fonts */
+  background-color: black;
+  color: white;
+}
+
+/* Style autofill inputs */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}

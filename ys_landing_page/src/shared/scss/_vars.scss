@@ -1,0 +1,9 @@
+$mainBlue: #8dd9f1;
+
+@mixin text {
+    font-family: 'OpenSans', cursive;
+}
+
+@mixin title {
+  font-family: 'Breathing Personal Use', sans-serif;
+}
